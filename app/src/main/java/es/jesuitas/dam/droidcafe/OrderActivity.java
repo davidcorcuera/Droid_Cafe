@@ -24,7 +24,7 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
         TextView textView = findViewById(R.id.order_textview);
         textView.setText(message);
 
-        // Create the spinner and assign Listenet to it.
+        // Create the spinner and assign Listener to it.
         Spinner spinner = findViewById(R.id.label_spinner);
         if (spinner != null) {
             spinner.setOnItemSelectedListener(this);
